@@ -1,0 +1,27 @@
+{
+    "dependencies_path" : ".",
+    
+    "dep_pu_baseboard" : {
+        "path" : "dep_pu_baseboard",
+        "repo" : "git@github.com:notanotherone/fencing-hw.git",
+        "version" : "pu_1.0.0"
+    },
+
+    "dep_hit_detector_board" : {
+        "path" : "dep_hit_detector_board",
+        "repo" : "git@github.com:notanotherone/fencing-hw.git",
+        "version" : "dev_pu_impulse_hd"
+    },
+
+    "dep_usb_board" : {
+        "path" : "dep_usb_board",
+        "repo" : "git@github.com:notanotherone/fencing-hw.git",
+        "version" : "pu_1.0.0"
+    },
+
+    "dep_plume_board" : {
+        "path" : "dep_plume_board",
+        "repo" : "git@github.com:notanotherone/fencing-hw.git",
+        "version" : "pu_1.0.0"
+    }
+}
