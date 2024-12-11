@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import json
 import argparse
 import os
@@ -81,7 +83,9 @@ def main():
     start_directory = os.getcwd()
     cfg_file_dir = os.path.dirname(cfg_path)
     cfg_file_basename = os.path.basename(cfg_path)
-    os.chdir(cfg_file_dir)
+    
+    if cfg_file_dir != '':
+        os.chdir(cfg_file_dir)
 
     # Read configuration file
     with open(cfg_file_basename) as f:
