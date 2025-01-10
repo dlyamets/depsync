@@ -26,7 +26,7 @@ class Dependency():
             print(f'Directory discovered: {self.path} it will be removed and re-clonned')
             shutil.rmtree(self.path, ignore_errors=True)
             
-        os.mkdir(self.path)
+        os.makedirs(self.path)
         print(f'Directory created for: {self.path}')
         os.chdir(self.path)
         print(f'Clonning repo: {self.repo}, version: {self.version} ...')
