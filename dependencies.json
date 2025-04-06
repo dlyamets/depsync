@@ -1,27 +1,17 @@
 {
-    "dependencies_path" : ".",
+    "dependencies_path" : "deps",
     
-    "dep_pu_baseboard" : {
-        "path" : "dep_pu_baseboard",
-        "repo" : "git@github.com:notanotherone/fencing-hw.git",
-        "version" : "pu_1.0.0"
+    "dep_fw_hd" : {
+        "path" : "dep-rep1",
+        "repo" : "git@github.com:dlyamets/dep_test1.git",
+        "version" : "test_tag1",
+        "required" : true
     },
 
-    "dep_hit_detector_board" : {
-        "path" : "dep_hit_detector_board",
-        "repo" : "git@github.com:notanotherone/fencing-hw.git",
-        "version" : "dev_pu_impulse_hd"
-    },
-
-    "dep_usb_board" : {
-        "path" : "dep_usb_board",
-        "repo" : "git@github.com:notanotherone/fencing-hw.git",
-        "version" : "pu_1.0.0"
-    },
-
-    "dep_plume_board" : {
-        "path" : "dep_plume_board",
-        "repo" : "git@github.com:notanotherone/fencing-hw.git",
-        "version" : "pu_1.0.0"
+    "dep_pu_hw" : {
+        "path" : "dep-rep2",
+        "repo" : "git@github.com:dlyamets/dep_test2.git",
+        "version" : "test_tag2",
+        "required" : false
     }
 }
